@@ -34,3 +34,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 #Post-Install Commands
 # sudo usermod -aG docker $USER
+# Modify /etc/default/grub
+# GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"
+# Then run "sudo update-grub ; sudo reboot now"
