@@ -18,7 +18,7 @@ sudo apt-get install -y \
     curl \
     gnupg-agent \
     software-properties-common \
-    htop bmon jq ncdu glances bc iotop openssh-server ssh
+    htop bmon jq ncdu glances bc iotop openssh-server ssh fail2ban build-essential 
 
 echo "Docker Install"
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
